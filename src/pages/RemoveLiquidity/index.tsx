@@ -115,7 +115,7 @@ export default function RemoveLiquidity({
       { name: 'verifyingContract', type: 'address' }
     ]
     const domain = {
-      name: 'Sushiswap V2',
+      name: 'Sushiswap',
       version: '1',
       chainId: chainId,
       verifyingContract: pair.liquidityToken.address
